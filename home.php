@@ -6,11 +6,11 @@ if(!isset($_SESSION['examineeSession']['examineenakalogin']) == true) header("lo
 
  ?>
 <?php include("conn.php"); ?>
-<!-- MAO NI ANG HEADER -->
+<!-- HEADER -->
 <?php include("includes/header.php"); ?>      
 
 <div class="app-main">
-<!-- sidebar diri  -->
+<!-- sidebar  -->
 <?php include("includes/sidebar.php"); ?>
 
 
@@ -46,7 +46,7 @@ if(!isset($_SESSION['examineeSession']['examineenakalogin']) == true) header("lo
  ?> 
 
 
-<!-- MAO NI IYA FOOTER -->
+<!-- FOOTER -->
 <?php include("includes/footer.php"); ?>
 
 <?php include("includes/modals.php"); ?>
