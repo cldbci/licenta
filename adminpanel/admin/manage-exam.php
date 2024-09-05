@@ -6,14 +6,14 @@ if(!isset($_SESSION['admin']['adminnakalogin']) == true) header("location:index.
 
  ?>
 <?php include("../../conn.php"); ?>
-<!-- MAO NI ANG HEADER -->
+<!-- HEADER -->
 <?php include("includes/header.php"); ?>      
 
-<!-- UI THEME DIRI -->
+<!-- UI THEME -->
 <?php include("includes/ui-theme.php"); ?>
 
 <div class="app-main">
-<!-- sidebar diri  -->
+<!-- sidebar -->
 <?php include("includes/sidebar.php"); ?>
 
 
@@ -227,7 +227,7 @@ if(!isset($_SESSION['admin']['adminnakalogin']) == true) header("location:index.
       
         
 
-<!-- MAO NI IYA FOOTER -->
+<!-- FOOTER -->
 <?php include("includes/footer.php"); ?>
 
 <?php include("includes/modals.php"); ?>
