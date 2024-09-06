@@ -15,7 +15,7 @@ if(!isset($_SESSION['examineeSession']['examineenakalogin']) == true) header("lo
 
 
 
-<!-- Condition If unza nga page gi click -->
+<!-- Condition If click -->
 <?php 
    @$page = $_GET['page'];
 
